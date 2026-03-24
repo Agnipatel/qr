@@ -21,34 +21,14 @@ END:VCARD
 `.trim();
 
 const cvTextData = `
-AGNI PATEL
-Lucknow | 6386026426 | 9266348732
-patelagni239@gmail.com | LinkedIn: /in/agni-patel-938292265 | GitHub: Agnipatel
-
-PROFESSIONAL SUMMARY
-Motivated MERN Stack Developer with professional experience in web development and deep learning. Expert in JavaScript and React, focused on delivering innovative solutions.
-
-TECHNICAL SKILLS
-- Web Dev: MERN Stack, Next.js, NestJS, HTML5, CSS3
-- UI: Tailwind CSS, Bootstrap, UI/UX
-- Lang/Algo: JavaScript (ES6+), DSA
-- AI/Data: Deep Learning, ML, Statistical Modeling
-- Tools: Git, REST APIs, Firebase, Netlify, Vercel
-
-WORK EXPERIENCE
-1. MERN Stack Trainer & Developer | Sileo Technologies (Mar23-Aug23)
-- Engineered frontend (React) and backend (Node.js/Express) for SwarajIndia/BVG.
-
-2. React Developer | difmo Technology (6-Months)
-- Spearheaded enterprise project using React.
-
-PROJECTS
-- Energy Consumption Forecasting: Smart building predictor using Deep Learning.
-- E-Commerce & Client Solutions: Annapurna Restaurants and platforms.
-- Full-Stack Web App: usdunique.com (React, Firebase, Tailwind).
-
-EDUCATION: B.Tech CSE Rameshwaram Institute (2020-2024), Intermediate (2017-2019).
-CERTIFICATIONS: TCS iON NQT, IIT BHU, Roomshala Hospitality.
+Name:-Agni patel
+Mobile numbers :- 6386026426
+Email:-patelagni239@gmail.com
+Links:- linkedin.com/in/agni-patel-938292265 
+Role: MERN & React Developer
+Total Exp: 1 Year
+Education: B.Tech CSE (Passout 2024)
+Cert/Skills: IIT BHU (ML & DL)
 `.trim();
 
 export default function Cv() {
@@ -74,9 +54,9 @@ export default function Cv() {
                 {/* QR Code in Top Right Absolute (Hidden on Print optionally, but let's keep it visible so they can scan paper too) */}
                 <div className="absolute top-8 right-8 flex flex-col items-center gap-1.5 opacity-90 group cursor-pointer hidden md:flex" onClick={handleDownloadContact} title="Click to download vCard, or scan on mobile">
                     <div className="p-1.5 border border-neutral-200 rounded bg-white shadow-sm transition-transform group-hover:scale-105">
-                        <QRCode value={cvTextData} size={85} fgColor="#171717" />
+                        <QRCode value={cvTextData} size={90} fgColor="#171717" />
                     </div>
-                    <span className="text-[8px] font-bold text-neutral-500 tracking-wider uppercase">Scan Full CV</span>
+                    <span className="text-[9px] font-bold text-neutral-500 tracking-wider uppercase">Scan Bio</span>
                 </div>
 
                 {/* Header */}
