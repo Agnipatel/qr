@@ -63,7 +63,7 @@ export default function Cv() {
                 <div className="flex flex-col items-center text-center mb-6">
                     <h1 className="text-3xl md:text-4xl font-extrabold tracking-wide mb-2 uppercase">AGNI PATEL</h1>
                     <p className="font-semibold text-neutral-700">
-                        Lucknow | 6386026426 / 9266348732
+                        Bangalore Karnataka | 6386026426 
                     </p>
                     <p className="font-semibold text-neutral-700 mt-0.5 flex items-center justify-center flex-wrap gap-x-2">
                         <a href="mailto:patelagni239@gmail.com" className="hover:underline">patelagni239@gmail.com</a>
@@ -105,7 +105,7 @@ export default function Cv() {
                     <div className="mb-4">
                         <div className="flex flex-col sm:flex-row sm:justify-between sm:items-baseline mb-1">
                             <h3 className="font-bold text-neutral-900 text-[14px]">MERN Stack Trainer & Developer <span className="font-normal text-neutral-700">| Sileo Technologies Pvt. Ltd. (CMMI Level 3)</span></h3>
-                            <span className="text-sm font-semibold italic text-neutral-600 sm:min-w-[180px] sm:text-right">March 2023 – August 2023</span>
+                            <span className="text-sm font-semibold italic text-neutral-600 sm:min-w-[180px] sm:text-right">March 2025 – August 2025</span>
                         </div>
                         <ul className="list-disc pl-5 space-y-1 mt-1.5 text-neutral-800">
                             <li><strong>Delivered</strong> end-to-end training programs on the MERN stack, emphasizing practical coding and industry readiness.</li>
